@@ -1,0 +1,531 @@
+:root {
+    --yasil : #96bb7c;
+}
+header {
+    background: url(../img/headerbg.webp) center/cover fixed;
+}
+
+.navbar {
+    background-color: #fff !important;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #28a745 !important;
+}
+
+.nav-link {
+    font: 600 1em "Nunito Sans";
+    color: #333;
+}
+
+.navbar-brand {
+    font: 900 1.25em "Nunito Sans";
+    color: #000;
+}
+.title {
+    padding: 20vh 0;
+}
+.title hr {
+    width: 40px;
+    height: 4px;
+    border: 1px solid var(--yasil);
+    background-color: var(--yasil);
+}
+.title h1 {
+    font: 400 2em "Nunito Sans";
+    text-transform: capitalize;
+    color: #000;
+}
+.title p {
+    font: 400 1.1em "Nunito Sans";
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#btn1 {
+    font: 400 0.85em "Nunito Sans";
+    color: #fff;
+    padding: 16px 24px;
+    margin-right: 20px;
+    border: 1px solid var(--yasil);
+    border-radius: 3px;
+    background-color: var(--yasil);
+}
+#btn2 {
+    font: 400 0.85em "Nunito Sans";
+    color: #fff;
+    padding: 16px 24px;
+    border: 1px solid var(--yasil);
+    border-radius: 50%;
+    background-color: var(--yasil);
+}
+#video span {
+    font: 400 1em "Nunito Sans";
+    color: #000;
+    margin-left: 10px;
+}
+article {background-color: var(--yasil);}
+#text4 {
+    padding: 40px 0 80px 0;
+    text-align: center;
+    color: #fff;
+}
+#text4 .col25 { padding: 20px 30px; }
+#text4 h5 { 
+    font: 600 1.25em "Nunito Sans"; 
+    padding: 10px 0;
+}
+#text4 p { font: 400 1em "Nunito Sans"; }
+#text4 .fa-solid { font-size: 2em; }
+#section1 {
+    background-color: #fff;
+}
+#forms {
+    padding: 0 15px;
+}
+#form1 {
+    min-height: 80vh;
+    margin: 0 0 30px 0;
+    background: url(../img/form1.jpg) center/cover;
+}
+#form2 {
+    position: relative;
+    background: url(../img/form2.jpg) center/cover;
+}
+#form2::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: var(--yasil);
+    opacity: .5;
+    z-index: 1;
+}
+.col35 {
+    padding: 35px 0;
+}
+.col35 h2 {
+    font: 400 2em "Nunito Sans";
+    color: rgba(0, 0, 0, 0.8);
+    margin: 24px 0 ;
+}
+.col35 p {
+    font: 400 1em "Nunito Sans";
+    color: rgb(102, 102, 102);
+} 
+#p1 {padding: 8px 0 16px 0;}
+.form {
+    position: relative;
+    padding: 48px 0;
+    z-index: 2;
+}
+.form p {
+    font: 400 .88em "Nunito Sans";
+    color: rgba(255, 255, 255, 0.9);
+}
+.form h4 {
+    font: 700 1.75em "Nunito Sans";
+    color: rgb(255, 255, 255);
+}
+.form input, .form textarea, .form select {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0;
+    padding: 6px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+.form button {
+    width: 100%;
+    font: 400 1em "Nunito Sans";
+    color: #fff;
+    padding: 16px 24px;
+    margin-top: 20px;
+    border: 1px solid var(--yasil);
+    border-radius: 3px;
+    background-color: var(--yasil);
+
+}
+.form ::placeholder {color: #fff;}
+.col20 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.say1 p {
+    font: 600 3.1em "Nunito Sans";
+    color: rgb(150, 187, 124);
+}
+.say2 p {
+    font: 400 0.88em "Nunito Sans";
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+#section2 {margin: 200px 0;}
+#section2 .row {
+    text-align: center;
+    margin-bottom: 110px;
+}
+.col50 {padding-top: 30px;}
+#works { text-align: center; }
+#w1 {
+    height: 590px;
+    background: url(../img/work1.jpg) center/cover;
+}
+#w2 {
+    height: 590px;
+    background: url(../img/work2.jpg) center/cover;
+}
+#w3 {
+    height: 590px;
+    background: url(../img/work3.jpg) center/cover;
+}
+#w4 {
+    height: 590px;
+    background: url(../img/work4.jpg) center/cover;
+}
+#w5 {
+    height: 590px;
+    background: url(../img/work5.jpg) center/cover;
+}
+#w1, #w2, #w3, #w4, #w5 {width: 100%;}
+#section2 span, #section3 span, #section4 span, #section5 span {
+    font: 600 0.75em "Nunito Sans";
+    color: var(--yasil);
+    text-transform: uppercase;
+}
+#section2 h6 {
+    font: 700 0.8em "Nunito Sans";
+    color: #000;
+    text-transform: uppercase;
+}
+#section2 h2, #section3 h2, #section4 h2, #section5 h2 {
+    font: 400 2.5em "Nunito Sans";
+    color: #000;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+#section2 p {
+    font: 400 1em "Nunito Sans";
+    color: rgb(102, 102, 102);
+    margin-bottom: 30px;
+}
+#section2 a {
+    font: 700 0.75em "Nunito Sans";
+    color: var(--yasil);
+    text-transform: uppercase;
+}
+#section3 {
+    position: relative;
+    margin-bottom: 100px;
+    padding: 30px 0;
+    background-color: rgb(248, 249, 250);
+}
+#clients { text-align: center; }
+.carousel-indicators { 
+    position: static; 
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-color: var(--yasil);
+}
+.carousel-item .row {
+    padding: 50px;
+    border: 1px solid #fff;
+    background-color: #fff;
+} 
+#carouselExampleIndicators {margin: 30px;}
+.client {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#section3 i {
+    color: var(--yasil);
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    z-index: 2;
+    font-size: 2.5em;
+}
+.cp {
+    padding: 0 24px 24px;
+    font: 400 1em "Nunito Sans";
+    color: rgb(102, 102, 102);
+}
+.ad {
+    padding: 0;
+    font: 500 1.25em "Nunito Sans";
+    color: #000;
+}
+.v {
+    font: 400 1em "Nunito Sans";
+    color: rgb(179, 179, 179);
+}
+#person1, #person2, #person3, #person4, #person5 {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-right: 30px;
+}
+#person1 {background: url(../img/client3.jpg) center/cover;}
+#person2 {background: url(../img/client2.jpg) center/cover;}
+#person3 {background: url(../img/client1.jpg) center/cover;}
+#person4 {background: url(../img/client3.jpg) center/cover;}
+#person5 {background: url(../img/client2.jpg) center/cover;}
+
+#prices {text-align: center;}
+#section4 {
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+.col33 {
+    box-shadow: 0 5px 3px 0 #c6c3c3;
+    margin: 30px 0;
+}
+.col33:hover {
+    box-shadow: 0 10px 8px 0 #c6c3c3;
+    transition: 0.5s;
+}
+.card1 {
+    height: 220px;
+    background: url(../img/work1.jpg) center/cover;
+}
+.card2 {
+    height: 220px;
+    background: url(../img/work2.jpg) center/cover;
+}
+.card3 {
+    height: 220px;
+    background: url(../img/work3.jpg) center/cover;
+}
+.card1, .card2, .card3 {margin: 30px 0;}
+.li > ul > li {
+    font: 400 1em "Nunito Sans";
+    margin: 15px 0;
+}
+.li .fa-regular { 
+    color: var(--yasil);
+    padding-right: 10px;
+}
+.price { 
+    padding: 20px;
+    background-color: rgb(248, 249, 250);
+}
+.price button {
+    width: 100%;
+    height: 55px;
+    border: 1 px solid var(--yasil);
+    border-radius: 3px;
+    background-color: var(--yasil);
+}
+.price button a {
+    font: 600 1em "Nunito Sans";
+    color: #fff;
+    padding: 16px 8px;
+    text-transform: uppercase;
+}
+.prs sub, .prs sup {position: relative;}
+.prs sup {
+    font: 400 1.5em "Nunito Sans";
+    color: #000;
+    top: 30px;
+    right: 15px;
+}
+.price .prs p {
+    font: 700 2.5em "Nunito Sans";
+    color: #000;
+}
+.prs sub {
+    font: 400 1em "Nunito Sans";
+    color: #000;
+    bottom: 25px;
+    left: 50px;
+}
+#section5 {
+    margin: 50px 0;
+    background-color: #fff;
+}
+#blogs {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.col251 {margin: 50px 0;}
+.blog1, .blog2, .blog3, .blog4 {height: 270px;}
+.blog1 {background: url(../img/blog1.jpg) center/cover;}
+.blog2 {background: url(../img/blog2.jpg) center/cover;}
+.blog3 {background: url(../img/blog3.jpg) center/cover;}
+.blog4 {background: url(../img/blog4.jpg) center/cover;}
+
+.admin {margin: 25px 0;}
+.admin a {
+    font: 400 0.9em "Nunito Sans";
+    color: rgb(179, 179, 179);
+    text-transform: uppercase;
+}
+.news a {
+    font: 400 1.25em "Nunito Sans";
+    color: #000;
+}
+.news a:hover {
+    color: var(--yasil);
+    transition: 0.3s;
+}
+footer {
+    background-color: rgb(15, 16, 28);
+}
+footer .row {padding: 100px 0} 
+.col201 {margin-bottom: 50px}
+.ft1 {
+    font: 700 1.1em "Nunito Sans";
+    color: #fff;
+    margin-bottom: 40px;
+}
+#ftp1 {
+    font: 400 1em "Nunito Sans";
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+}
+.media a {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.5);
+    font: 400 1em "Nunito Sans";
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.comli > ul > li  {
+    font: 400 1em "Nunito Sans";
+    color: rgba(255, 255, 255, 0.5);
+}
+.comli .fa-solid {padding-right: 10px;}
+.copy {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    header { height: 130vh; }
+    .navbar {
+        padding-top: 30px;
+        background-color: transparent !important;
+    }
+    .navbar a:hover {
+        color: #fff;
+        transition: .3s all;
+    }
+    .navbar .container-fluid {
+        display: flex;
+    }
+    .collapse.navbar-collapse {
+        justify-content: flex-end; 
+    }
+    .container { max-width: 1150px; }
+    .title {width: 50%;}
+    .title h1 { font-size: 3.7em }
+    #video { 
+        display: flex; 
+        align-items: center;
+    }
+    #text4 .col25 { 
+        width: 25%;
+        padding: 0 30px;
+    }
+    #text4 h5 { padding: 40px 0 20px 0; }
+    #text4 .fa-solid { font-size: 3.75em; }
+    .col35 { 
+        order: 1;
+        width: 35%;
+    }
+    .col35 h2 {
+        font-size: 3.75em;
+        margin: 0;
+    }
+    #forms .col25 {
+        order: 2;
+        width: 25%;
+    }
+    .col30 {
+        order: 3;
+        width: 30%;
+    }
+    #section1 .col25 { width: 25%; }
+    #forms {max-height: 120vh;}
+    #form1 {
+        max-height: 120vh;
+        margin: 0 3% 0 7%;
+    }
+    #form2 {max-height: 120vh;}
+    .col20 {
+        max-width: 15%;
+        margin: 105px 5%;
+    }
+    .col50 { 
+        width: 50%;
+    }
+    #w1, #w2, #w3, #w4, #w5 {width: 460px;} 
+    .fleft { 
+        float: left;
+        text-align: right;
+    }
+    .fright {
+        float: right;
+        text-align: left;
+    }
+    #section2 .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+    #section2 h2, #section3 h2, #section4 h2, #section5 h2 {font-size: 3.75em;}
+    #w2, #w4 {
+        order: 1;
+        margin-left: 70px;
+    }
+    #w1, #w3, #w5 {margin-right: 70px;}
+    #section3 {
+        padding: 100px 0;
+        margin-bottom: 100px;
+    }
+    #section3 i {
+        position: absolute;
+        top: 220px;
+        left: 250px;
+        z-index: 2;
+    }
+    .col33 {
+        margin: 0 1.5%;
+        width: 30%;
+    }
+    .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .price button { 
+        margin-left: 50px;
+        width: 150px; 
+    }
+    .col251 {width: 25%;}
+    #section5 { margin-top: 200px;}
+    .col201 {width: 20%;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1060px) {
+    .col20 {
+        margin: 50px 10% 0 10%;
+    }
+    #w1, #w2, #w3, #w4, #w5 {width: 300px;}
+}
